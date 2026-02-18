@@ -1,0 +1,19 @@
+Imagine building a small shop website:
+
+Variables → Store product price
+
+Array → List of products
+
+Object → Product details
+
+Function → Calculate total price
+
+Condition → If total > $100 → give discount
+
+Loop → Show all products
+
+Event → When user clicks “Buy”
+
+DOM → Show “Thank you” message
+
+Everything works together.
