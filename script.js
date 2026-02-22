@@ -253,7 +253,10 @@ function generateProduct(item) {
     discount.textContent = `${item.discount}%`;
   }
   let img = document.createElement("img");
-  img.src = item.image;
+  img.src = item.image
+    ? item.image
+    : "https://images.unsplash.com/photo-1520975916090-3105956dac38?auto=format&fit=crop&w=500&q=80";
+  img.alt = item.name;
 
   let h3 = document.createElement("h3");
   h3.textContent = item.name;
